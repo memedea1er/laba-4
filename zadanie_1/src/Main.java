@@ -12,7 +12,7 @@ public class Main {
         y = sc.nextInt();
         System.out.println("Введите k");
         k = sc.nextInt();
-        r = sqrt(sin(y) * sin(y) + 6.835) / (log(y + k) + 3 * y * y);
+        r = sqrt(pow(sin(y),2) + 6.835) / (log(y + k) + 3 * y * y);
         System.out.println("R = " + r);
     }
     public static void zadanie_1_2() {
